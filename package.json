@@ -1,0 +1,23 @@
+{
+  "name": "creative-login-form",
+  "version": "1.0.0",
+  "description": "Login form for HTML CSS practice",
+  "main": "index.js",
+  "scripts": {
+    "live-server": "live-server",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ourandco/Creative-Login-Form.git"
+  },
+  "author": "Alamgir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ourandco/Creative-Login-Form/issues"
+  },
+  "homepage": "https://github.com/ourandco/Creative-Login-Form#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
