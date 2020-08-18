@@ -48,6 +48,9 @@ body {
   justify-content: center;
   align-items: center; }
 
+.logo-box__logo {
+  height: 15rem; }
+
 .heading {
   padding: .5rem; }
   .heading__title {
