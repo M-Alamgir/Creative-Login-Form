@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #5924b1;
-    --color-primary-light: #5d22bd;
+    --color-primary: #4358D0;// #5924b1;
+    --color-primary-light: #c750c2; //#5d22bd;
 
     --color-secondary: #17194a;
     --color-secondary-light: #9130f3;
@@ -24,19 +24,21 @@
 
 html {
     font-size: 62.5%;
+    color: rgb(92, 92, 92);
 }
 
 body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to right bottom, var(--color-primary), var(--color-primary-light));
+    background-image: linear-gradient(to top right, var(--color-primary), var(--color-primary-light));
     background-size: cover;
     height: 100vh;
-    background: repeating-radial-gradient(
+    /*background: repeating-radial-gradient(
         circle at top right,
         var(--color-primary),
         var(--color-primary) 25rem,
         var(--color-primary-light) 20px, 
         var(--color-primary-light) 50rem
       );
+    */
 }
