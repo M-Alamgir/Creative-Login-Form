@@ -84,6 +84,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
     
 }
 
@@ -102,14 +103,35 @@
     &__icon {
         height: 3rem;
         width: 3rem;
-
-        
+        cursor: pointer;
 
         &:not(:last-child){
-            margin-right: 1rem;
+            margin-right: 2rem;
         }
     }
 
+}
+
+.facebook {
+    fill: #3B5998;
+    &:hover {
+        fill: darken($color: #3B5998, $amount: 10);
+    }
+}
+
+.twitter {
+    fill: #00acee;
+    &:hover {
+        fill: darken($color: #00acee, $amount: 10);
+        
+    }
+}
+
+.google {
+    fill: #EA4335;
+    &:hover {
+        fill: darken($color: #EA4335, $amount: 10);
+    }
 }
 
 .form {
@@ -137,6 +159,7 @@
         &:focus {
             outline: none;
             transform: scaleX(1);
+            border-bottom: 1px solid #777;
         }
 
     }
@@ -144,14 +167,14 @@
     &__email::-webkit-input-placeholder,
     &__password::-webkit-input-placeholder {
         transform: translateX(50%);
-        color: #777;
+        color: #ccc;
         transition: all .2s;
     }
     &__email:focus::-webkit-input-placeholder,
     &__password:focus::-webkit-input-placeholder{
         transform: translateX(0%);
         opacity: 0;
-        color: #777;
+        color: #ccc;
     }
 
     &__button {
@@ -172,4 +195,67 @@
         background-color: #fff;
         fill: #777;
     }
+}
+
+.form__links {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.terms {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    &__input {
+        margin-right: .5rem;
+        
+    }
+
+    &__label {
+        font-size: 1.2rem;
+    }
+}
+
+.forget {
+    box-shadow: 0 .6rem .6rem -.6rem rgba(0,0,0, .2);
+
+    &__link {
+        text-decoration: none;
+        color: rgb(250, 91, 91);
+
+        &:hover {
+            color: rgb(253, 39, 39);
+        }
+    }
+}
+
+.submit-form {
+    display: flex;
+    justify-content: center;
+    
+    &__button {
+        box-shadow: 0 1rem 1rem rgba(0,0,0, .2);
+        margin-top: 2rem;
+        border: none;
+        padding: 1rem 5rem;
+        background-image: linear-gradient(to right, var(--color-primary), var(--color-primary-light));
+        font-family: inherit;
+        font-size: 1.5rem;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 100px;
+        transition: all .2s;
+        cursor: pointer;
+        letter-spacing: 2px;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:focus {
+            outline: none;
+            transform: scale(1);
+        }
+    }
+    
 }
