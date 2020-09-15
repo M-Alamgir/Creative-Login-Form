@@ -1,8 +1,9 @@
 # Login Form
 Login Form for Imaginary Coffee shop.
 
-## live Demo
-Live Demo here: https://ourandco.github.io/Creative-Login-Form/
+## live Demo 
+
+Live Demo: https://ourandco.github.io/Creative-Login-Form/
 
 ![](img/shot.PNG)
 
