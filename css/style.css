@@ -23,7 +23,7 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(to top right, var(--color-primary), var(--color-primary-light));
+  background-image: linear-gradient(to top right, #2ebec6, #321c6f);
   background-size: cover;
   height: 100vh;
   /*background: repeating-radial-gradient(
