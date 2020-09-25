@@ -20,3 +20,16 @@ Live Demo: https://ourandco.github.io/Creative-Login-Form/
 
 #### Author
 :bust_in_silhouette: Alamgir
+
+
+## Show your support
+
+Give a ⭐️ if you like this project
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+#### Copyrights
+
+- Free to use.
