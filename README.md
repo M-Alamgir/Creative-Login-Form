@@ -16,6 +16,11 @@ Live Demo: https://ourandco.github.io/Creative-Login-Form/
 - Google fonts<br />
 - freepnglogos.com <br />
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+
 ##### Sass, NPM, BEM METHADOLOGY, Live-Sever
 
 #### Author
